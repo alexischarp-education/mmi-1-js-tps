@@ -1,0 +1,106 @@
+body {
+	padding: 32px 0;
+	font-family: system-ui, sans-serif;
+	color: #0c0c0c;
+}
+
+h1 {
+	margin: 0 32px;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.headline {
+	margin: 32px 32px 0;
+	font-size: 1.25rem;
+}
+
+.movie-list {
+	margin-top: 48px;
+	padding: 32px;
+	display: flex;
+	justify-content: space-between;
+	gap: 64px;
+	flex-wrap: wrap;
+	background-color: #f2f2f2;
+}
+
+.movie-item {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	flex: 1;
+}
+
+.movie-item img {
+	max-width: 360px;
+}
+
+.movie-item a {
+	margin: 8px 0 0;
+	font-size: 1.125rem;
+	font-weight: bold;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.quiz {
+	margin-top: auto;
+	padding-top: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.quiz label {
+	font-weight: bold;
+}
+
+footer {
+	padding: 80px 32px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+footer hr {
+	border: none;
+	border-top: 1px solid #0c0c0c;
+	margin: 16px 0;
+}
+
+footer a {
+	color: #153dc0;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+footer h2 {
+	font-weight: bold;
+}
+
+@media (min-width: 780px) {
+	body {
+		padding: 64px 0;
+	}
+
+	h1 {
+		margin: 0 80px;
+	}
+
+	.headline {
+		margin: 32px 80px 0;
+	}
+
+	.movie-list {
+		padding: 32px 80px;
+	}
+
+	.movie-item img {
+		max-width: 180px;
+	}
+
+	footer {
+		padding: 80px;
+	}
+}
